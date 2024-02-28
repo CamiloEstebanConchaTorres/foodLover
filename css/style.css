@@ -1,1 +1,112 @@
 @import url(style.css);
+
+
+
+.container{
+    border: 2px solid black;
+    height: 100vh;
+}
+.box1{
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 100vh;
+    background: black;
+    background-image: url("file:///home/user/Escritorio/foodLover/storage/img/placeYourImageHere0.png");
+}
+
+.arriba{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.box1 .caja1, .caja3{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 40px;
+}
+
+.box1 .caja1{
+    margin-left: 20vh;
+}
+
+.box1 .caja3{
+    margin-right: 20vh;
+}
+
+.box1 .caja1, .caja2, .caja3{
+    margin-top: 2vh;
+    height: 50px;
+}
+
+.box1 .caja2{
+    margin-right: 10vh;
+    height: 90px;
+}
+
+
+
+.final{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.final h1{
+    color: orange;
+    font-size: 80px;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+.final h1 >p{
+    color: white;
+    font-size: 30px;
+}
+.final button{
+    font-size: 50px;
+    background-color: orange;
+}
+
+.final img{
+    margin-left: 200px;
+}
+
+.box2{
+    background: rgb(41, 15, 41);
+    height: 180vh;
+    box-sizing: border-box;
+}
+
+.arribita{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cajita1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 100px;
+}
+
+.cajita1 h1{
+    color: white;
+    align-items: center;
+    font-size: 80px;
+}
+
+.cajita1 h1>p{
+    font-size: 30px;
+}
+
+.cajita1 img{
+    margin-left: 100px;
+}
