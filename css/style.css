@@ -22,10 +22,26 @@
     gap: 30px;
     color: white;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
 }
 
 .Menuprincipal_izquierda{
     margin-left: 15px;
+}
+
+.Menuprincipal_izquierda a, .Menuprincipal_Derecha a{
+    text-decoration: none;
+    color: #fff;
+ }
+
+.Menuprincipal_izquierda a:hover, .Menuprincipal_Derecha a:hover{
+    color: #e58f00;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .Menuprincipal_Derecha{
@@ -42,7 +58,7 @@
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    background-image: url("/storage/img/placeYourImageHere0.png"), linear-gradient(#32323965, #32323905);
+    background-image: url("../storage/img/placeYourImageHere0.png"), linear-gradient(#32323965, #32323905);
     height: 100vh;
     background-size: cover;
     background-repeat:no-repeat;
@@ -55,6 +71,10 @@
     font-size: 25px;
     margin-left: 40px;
     color: #e58f00;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .ContacUsTexto h1{
@@ -75,10 +95,23 @@
     width: 180px;
     font-size: 20px;
     border-radius: 8px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .ContacUsimagen{
     margin-left: 50px;
+}
+
+.gradiante{
+    background: #323239e3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
 }
 
 .AboutUs{
@@ -100,6 +133,10 @@
     font-size: 30px;
     color: #fff;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .AboutUs_Texto p{
@@ -135,6 +172,10 @@
     font-size: 27px;
     color: #fff;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .Qualitycaja1 p{
@@ -193,6 +234,10 @@
     font-weight: bold;
     color: #fff;
     font-size: 40px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .Gallery_imagenesfila1{
@@ -242,6 +287,10 @@
     padding: 50px;
     height: 45%;
     background: linear-gradient(#17171ec0, #17171ec9);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 
 }
 
@@ -257,6 +306,10 @@
     font-size: 30px;
     color: #fff;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .Menu{
@@ -285,18 +338,30 @@
     padding-top: 40px;
     color: orange;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .Menucolumna1 p, .Menucolumna2 p, .Menucolumna3 p{
     padding-top: 20px;
     color: white;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .Menucolumna1 h2, .Menucolumna2 h2, .Menucolumna3 h2{
     padding-top: 20px;
     color: orange;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .BestMeal{
@@ -326,6 +391,10 @@
 
 .BestMealcaja2 p{
     padding-top: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .Footer{
@@ -345,6 +414,15 @@
     gap:40px;
     color: white;
     font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Footermenu a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .Footermenulogos img{
@@ -356,4 +434,9 @@
 
 .Footermenulogos{
     padding-top: 30px;
+}
+
+.Footermenu a:hover{ 
+    color: #e58f00;
+    cursor: pointer;
 }
