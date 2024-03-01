@@ -1,112 +1,359 @@
-@import url(style.css);
+@import url(variables.css);
 
-
-
-.container{
-    border: 2px solid black;
-    height: 100vh;
-}
-.box1{
-    border: 2px solid black;
-    box-sizing: border-box;
-    height: 100vh;
-    background: black;
-    background-image: url("file:///home/user/Escritorio/foodLover/storage/img/placeYourImageHere0.png");
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.arriba{
+.Menuprincipal{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-around;
+    background: #323239;
+    padding-top: 25px;
+    align-self: center;
     align-items: center;
+    width: 100%;
 }
 
-.box1 .caja1, .caja3{
-    color: #fff;
+.Menuprincipal_izquierda, .Menuprincipal_Derecha{
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    gap: 40px;
+    gap: 30px;
+    color: white;
+    font-weight: bold;
 }
 
-.box1 .caja1{
-    margin-left: 20vh;
+.Menuprincipal_izquierda{
+    margin-left: 15px;
 }
 
-.box1 .caja3{
+.Menuprincipal_Derecha{
+    margin-right: 15vh;
+}
+
+.Menuprincipal_Medio{
     margin-right: 20vh;
+    margin-left: 28vh;
 }
 
-.box1 .caja1, .caja2, .caja3{
-    margin-top: 2vh;
-    height: 50px;
-}
-
-.box1 .caja2{
-    margin-right: 10vh;
-    height: 90px;
-}
-
-
-
-.final{
+.ContacUs{
     display: flex;
     flex-direction: row;
+    justify-content:space-around;
     align-items: center;
-    margin-top: 120px;
+    background-image: url("/storage/img/placeYourImageHere0.png"), linear-gradient(#32323965, #32323905);
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
 }
 
-.final h1{
-    color: orange;
-    font-size: 80px;
-    margin-left: 200px;
+.ContacUsTexto{
+    width: 30%;
     margin-right: 300px;
-}
-.final h1 >p{
-    color: white;
-    font-size: 30px;
-}
-.final button{
-    font-size: 50px;
-    background-color: orange;
+    font-size: 25px;
+    margin-left: 40px;
+    color: #e58f00;
 }
 
-.final img{
-    margin-left: 200px;
+.ContacUsTexto h1{
+    font-weight: bold;
 }
 
-.box2{
-    background: rgb(41, 15, 41);
-    height: 180vh;
-    box-sizing: border-box;
+.ContacUsTexto p{
+    margin-top: 20px;
+    color: #fff;
 }
 
-.arribita{
+.ContacUsTexto button{
+    margin-top: 20px;
+    color: black;
+    background: orange;
+    padding: 20px;
+    font-weight: bold;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.ContacUsimagen{
+    margin-left: 50px;
+}
+
+.AboutUs{
     display: flex;
     flex-direction: row;
-    
-}
-
-.cajita1{
-    display: flex;
-    flex-direction: row;
+    background: #17171e;
+    justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    padding-top: 30vh;
+}
+
+.AboutUs_imagen{
     margin-left: 200px;
+}
+
+.AboutUs_Texto{
+    margin-left: 80px;
     margin-right: 200px;
-    gap: 100px;
-}
-
-.cajita1 h1{
-    color: white;
-    align-items: center;
-    font-size: 80px;
-}
-
-.cajita1 h1>p{
     font-size: 30px;
+    color: #fff;
+    font-weight: bold;
 }
 
-.cajita1 img{
-    margin-left: 100px;
+.AboutUs_Texto p{
+    margin-top: 10px;
+}
+
+.cajaParaSeparar{
+    background: #17171e;
+    height: 150px;
+}
+
+.Quality{
+    height: 250vh;
+    background: #17171e;
+}
+
+.sinfondo{
+    width: 100%;
+    height: 100%;
+}
+
+.sinfondo  img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.Qualitycaja1{
+    position: relative;
+    bottom: 78%;
+    width: 25%;
+    margin-left: 10%;
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Qualitycaja1 p{
+    margin-top: 10%;
+}
+
+.Qualityfondo1{
+    position: relative;
+    max-width: 25%;
+    bottom: 120%;
+    left: 75%;
+}
+
+.Qualityfondo1 img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.Qualityfondo2{
+    position: relative;
+    max-width: 63%;
+    bottom: 123%;
+    left: 37%;
+}
+
+.Qualityfondo2 img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.Qualityfondo3{
+    position: relative;
+    max-width: 35%;
+    bottom: 160%;
+    left: 0;
+}
+
+.Qualityfondo3 img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.Gallery{
+    padding-top: 70px;
+    background: #17171e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gallery_Titulo h1{
+    font-weight: bold;
+    color: #fff;
+    font-size: 40px;
+}
+
+.Gallery_imagenesfila1{
+    padding-top: 90px;
+}
+
+.Gallery_imagenesfila1 img, .Gallery_imagenesfila2 img{
+    padding: 10px;
+}
+
+.Gallery_imagenesfila1, .Gallery_imagenesfila2{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.Food{
+    background: #17171e;
+    padding-top: 200px;
+    height: 150vh;
+}
+
+.Food_cajamayor{
+    width: 100%;
+    height: 100%;
+}
+
+.Food_cajamayor img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.Food_cajamenor{
+    position: relative;
+    bottom: 75%;
+    width: 40%;
+    margin-left: 25%;
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid orange;
+    align-self: center;
+    padding: 50px;
+    height: 45%;
+    background: linear-gradient(#17171ec0, #17171ec9);
+
+}
+
+.Food_cajamenor p{
+    padding-top: 25px;
+}
+
+.TituloMenu{
+    background: #17171e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Menu{
+    padding-top: 50px;
+    background: #17171e;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Menucolumna1{
+    padding-left: 50px;
+}
+
+.Menucolumna2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Menucolumna3{
+    padding-right: 50px;
+}
+
+.Menucolumna1 h1, .Menucolumna2 h1, .Menucolumna3 h1{
+    padding-top: 40px;
+    color: orange;
+    font-weight: bold;
+}
+
+.Menucolumna1 p, .Menucolumna2 p, .Menucolumna3 p{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.Menucolumna1 h2, .Menucolumna2 h2, .Menucolumna3 h2{
+    padding-top: 20px;
+    color: orange;
+    font-weight: bold;
+}
+
+.BestMeal{
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: #e58f00;
+}
+
+.BestMealcaja1{
+    position: relative;
+    bottom: 13%;
+}
+
+.BestMealcaja2{
+    position: relative;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    margin-right: 200px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.BestMealcaja2 p{
+    padding-top: 20px;
+}
+
+.Footer{
+    height: 60vh;
+    background: #17171e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footermenu{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:40px;
+    color: white;
+    font-weight: bold;
+}
+
+.Footermenulogos img{
+    background: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 2px;
+}
+
+.Footermenulogos{
+    padding-top: 30px;
 }
